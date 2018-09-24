@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    background: url('https://clip2art.com/images/universe-clipart-desktop-background-15.jpg') fixed;
+    color: #09afcc;
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    padding: 30px 0;
+    color: #09afcc;
+    background-color: rgba(0, 140, 255,.4)
+}
+
+.col-4,
+.col-10 {
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+
+ col-4 {
+   width: 33.33%;
+ }
+
+col-8 {
+  width: 66.67%;
+}
+
+.home {
+  width: 60px;
+}
+
+header ul li {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 30px;
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+header ul {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.startSplash, .questionContainer, .feedbackPage, .finalPage {
+  max-width: 40%;
+  display: block;
+  margin: 100px auto;
+  text-transform: uppercase;
+  border: 1px solid black;
+  text-align: center;
+  padding:20px;
+  background-color: rgba(5, 8, 10, 0.705);
+  font-size: 2em;
+}
+
+.start  {
+    margin: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding:5px;
+  background-color: rgb(140, 0, 255);
+  color:white;
+}
+
+.answerText {
+    color: rgb(175, 74, 158);
+}
+img {
+  max-width: 100%;
+  }
+
+.home {
+  margin-left: 20px;
+}
+
+legend {
+  font-size: 2em;
+}
+
+fieldset {
+  border:none;
+}
+.start:hover {
+    background-color: rgb(255, 232, 104);
+    color: black;
+    cursor: pointer;
+}
+
+ label {
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+}
+
+label:hover, label:focus{
+    background-color: rgba(109, 22, 109, 0.479);
+    cursor: pointer;
+}
+
+
+.nextQuestion, .submitAnswer {
+      margin: 15px;
+      padding: 10px;
+      font-size: 18px;
+      color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: rgb(211, 64, 64);
+
+}
+
+.nextQuestion:hover, .submitAnswer:hover {
+      background-color: rgb(255, 232, 104);
+      color: black;
+      cursor: pointer;
+}
+
+
+@media screen and (min-width: 320px) {
+  
+  .startSplash, .questionContainer, .feedbackPage, .finalPage {
+      max-width: 90%;
+      margin: 20px auto;
+    }
+
+    legend {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+     h1 {
+      font-size: 1.1em;
+    }
+
+    label {
+      font-size: 17px;
+    }
+
+    header ul li {
+      font-size: 1.3em;
+    }
+
+    img {
+      max-width: 80%;
+    }
+
+    .feedbackPage {
+      font-size: .8em;
+    }
+
+    .finalPage {
+      font-size: .7em;
+    }
+
+  }
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+      .startSplash, .questionContainer, .feedbackPage, .finalPage {
+      max-width: 90%;
+      margin: 50px auto;
+      }
+   
+      legend {
+      font-size: 25px;
+      }
+
+      h1 {
+      font-size: 1.1em;
+      }
+      label {
+        font-size: 20px;
+      }
+
+      header ul li {
+        font-size: 1.5em;
+        display: inline-block;
+        margin-top: -20px;
+
+      }
+
+      img {
+        max-width: 80%;
+      }
+
+}
+
+    
+
+@media screen and (min-width: 768px)  {
+
+      .startSplash, .questionContainer, .feedbackPage, .finalPage {
+      max-width: 70%;
+      font-size: 1.2em;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      header ul li {
+        font-size: 2em;
+      } 
+
+      img {
+        max-width: 80%;
+      }
+      
+      legend {
+        font-size: 30px;
+      }
+
+      label {
+        font-size: 25px;
+      }
+}
+
+@media only screen and (min-width: 1200px) {
+
+.startSplash, .questionContainer, .feedbackPage, .finalPage {
+  max-width: 40%;
+  display: block;
+  margin: 100px auto;
+  text-transform: uppercase;
+  border: 1px solid black;
+  text-align: center;
+  padding:20px;
+  background-color: rgba(5, 8, 10, 0.705);
+  font-size: 1.1em;
+}
+}
+
+
+
+
